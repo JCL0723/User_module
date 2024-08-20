@@ -1,0 +1,393 @@
+2024-08-20 20:04:34.202  INFO 18312 --- [restartedMain] com.example.test.TestApplication         : Starting TestApplication using Java 1.8.0_151 on LAPTOP-JNEFC1UN with PID 18312 (C:\backend_test1\target\classes started by 李嘉琛 in C:\backend_test1)
+2024-08-20 20:04:34.208 DEBUG 18312 --- [restartedMain] com.example.test.TestApplication         : Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-08-20 20:04:34.210  INFO 18312 --- [restartedMain] com.example.test.TestApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-20 20:04:34.266  INFO 18312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-20 20:04:34.268  INFO 18312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-20 20:04:35.532  INFO 18312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-20 20:04:35.534  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-08-20 20:04:35.534  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2024-08-20 20:04:35.534  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-08-20 20:04:35.534  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-20 20:04:35.550  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2024-08-20 20:04:35.559  INFO 18312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-20 20:04:35.559  INFO 18312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-20 20:04:35.690  INFO 18312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-20 20:04:35.691  INFO 18312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1422 ms
+2024-08-20 20:04:37.877  INFO 18312 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-08-20 20:04:38.087  INFO 18312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-20 20:04:38.127  INFO 18312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-20 20:04:38.138  INFO 18312 --- [restartedMain] com.example.test.TestApplication         : Started TestApplication in 4.597 seconds (JVM running for 7.408)
+2024-08-20 21:38:53.759  INFO 18312 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 6 class path changes (0 additions, 4 deletions, 2 modifications)
+2024-08-20 21:38:54.382  INFO 18312 --- [Thread-14] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-20 21:38:54.405  INFO 18312 --- [Thread-14] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2024-08-20 21:38:54.548  INFO 18312 --- [restartedMain] com.example.test.TestApplication         : Starting TestApplication using Java 1.8.0_151 on LAPTOP-JNEFC1UN with PID 18312 (C:\backend_test1\target\classes started by 李嘉琛 in C:\backend_test1)
+2024-08-20 21:38:54.549 DEBUG 18312 --- [restartedMain] com.example.test.TestApplication         : Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-08-20 21:38:54.549  INFO 18312 --- [restartedMain] com.example.test.TestApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-20 21:38:54.777  WARN 18312 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.test]' package. Please check your configuration.
+2024-08-20 21:38:54.869  INFO 18312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-20 21:38:54.870  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-08-20 21:38:54.870  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2024-08-20 21:38:54.870  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-08-20 21:38:54.870  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-20 21:38:54.870  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2024-08-20 21:38:54.871  INFO 18312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-20 21:38:54.871  INFO 18312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-20 21:38:54.920  INFO 18312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-20 21:38:54.920  INFO 18312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 367 ms
+2024-08-20 21:38:54.978  INFO 18312 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-08-20 21:38:55.723  INFO 18312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-20 21:38:55.737  INFO 18312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-20 21:38:55.742  INFO 18312 --- [restartedMain] com.example.test.TestApplication         : Started TestApplication in 1.24 seconds (JVM running for 5665.012)
+2024-08-20 21:38:55.743  INFO 18312 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-20 21:38:57.152  INFO 18312 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (4 additions, 0 deletions, 0 modifications)
+2024-08-20 21:38:57.987  INFO 18312 --- [Thread-20] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-20 21:38:57.993  INFO 18312 --- [Thread-20] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2024-08-20 21:38:58.132  INFO 18312 --- [restartedMain] com.example.test.TestApplication         : Starting TestApplication using Java 1.8.0_151 on LAPTOP-JNEFC1UN with PID 18312 (C:\backend_test1\target\classes started by 李嘉琛 in C:\backend_test1)
+2024-08-20 21:38:58.132 DEBUG 18312 --- [restartedMain] com.example.test.TestApplication         : Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-08-20 21:38:58.132  INFO 18312 --- [restartedMain] com.example.test.TestApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-20 21:38:58.370  INFO 18312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-20 21:38:58.370  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-08-20 21:38:58.370  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2024-08-20 21:38:58.370  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-08-20 21:38:58.370  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-20 21:38:58.370  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2024-08-20 21:38:58.371  INFO 18312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-20 21:38:58.371  INFO 18312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-20 21:38:58.410  INFO 18312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-20 21:38:58.411  INFO 18312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 275 ms
+2024-08-20 21:38:59.155  INFO 18312 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-08-20 21:38:59.197  INFO 18312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-20 21:38:59.210  INFO 18312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-20 21:38:59.215  INFO 18312 --- [restartedMain] com.example.test.TestApplication         : Started TestApplication in 1.122 seconds (JVM running for 5668.485)
+2024-08-20 21:38:59.216  INFO 18312 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-20 21:39:09.289  INFO 18312 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-20 21:39:09.290  INFO 18312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-20 21:39:09.292  INFO 18312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-20 21:39:09.465  INFO 18312 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-08-20 21:39:10.649 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:39:10.675 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:39:10.705 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:39:10.710 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 21:39:10.711 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 21:39:10.715 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:53:03.818  INFO 18312 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 2 deletions, 1 modification)
+2024-08-20 21:53:04.456  INFO 18312 --- [Thread-24] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-20 21:53:04.457  INFO 18312 --- [Thread-24] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-08-20 21:53:04.461  WARN 18312 --- [Thread-24] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Create-1990124337] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2760)
+2024-08-20 21:53:04.462  WARN 18312 --- [Thread-24] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Destroy-1990124337] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2860)
+2024-08-20 21:53:04.468  INFO 18312 --- [Thread-24] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-08-20 21:53:04.471  INFO 18312 --- [Thread-24] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-08-20 21:53:04.677  INFO 18312 --- [restartedMain] com.example.test.TestApplication         : Starting TestApplication using Java 1.8.0_151 on LAPTOP-JNEFC1UN with PID 18312 (C:\backend_test1\target\classes started by 李嘉琛 in C:\backend_test1)
+2024-08-20 21:53:04.677 DEBUG 18312 --- [restartedMain] com.example.test.TestApplication         : Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-08-20 21:53:04.677  INFO 18312 --- [restartedMain] com.example.test.TestApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-20 21:53:04.978  INFO 18312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-20 21:53:04.978  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-08-20 21:53:04.978  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2024-08-20 21:53:04.978  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-08-20 21:53:04.978  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-20 21:53:04.978  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2024-08-20 21:53:04.980  INFO 18312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-20 21:53:04.980  INFO 18312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-20 21:53:05.019  INFO 18312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-20 21:53:05.019  INFO 18312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 340 ms
+2024-08-20 21:53:05.808  INFO 18312 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-08-20 21:53:05.844  INFO 18312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-20 21:53:05.859  INFO 18312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-20 21:53:05.864  INFO 18312 --- [restartedMain] com.example.test.TestApplication         : Started TestApplication in 1.223 seconds (JVM running for 6515.135)
+2024-08-20 21:53:05.866  INFO 18312 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-20 21:53:07.271  INFO 18312 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2024-08-20 21:53:07.956  INFO 18312 --- [Thread-28] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-20 21:53:07.965  INFO 18312 --- [Thread-28] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2024-08-20 21:53:08.098  INFO 18312 --- [restartedMain] com.example.test.TestApplication         : Starting TestApplication using Java 1.8.0_151 on LAPTOP-JNEFC1UN with PID 18312 (C:\backend_test1\target\classes started by 李嘉琛 in C:\backend_test1)
+2024-08-20 21:53:08.098 DEBUG 18312 --- [restartedMain] com.example.test.TestApplication         : Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-08-20 21:53:08.098  INFO 18312 --- [restartedMain] com.example.test.TestApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-20 21:53:08.292  INFO 18312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-20 21:53:08.293  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-08-20 21:53:08.293  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2024-08-20 21:53:08.293  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-08-20 21:53:08.293  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-20 21:53:08.293  INFO 18312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2024-08-20 21:53:08.293  INFO 18312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-20 21:53:08.294  INFO 18312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-20 21:53:08.336  INFO 18312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-20 21:53:08.337  INFO 18312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 237 ms
+2024-08-20 21:53:09.047  INFO 18312 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-08-20 21:53:09.083  INFO 18312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-20 21:53:09.097  INFO 18312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-20 21:53:09.100  INFO 18312 --- [restartedMain] com.example.test.TestApplication         : Started TestApplication in 1.035 seconds (JVM running for 6518.371)
+2024-08-20 21:53:09.102  INFO 18312 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-20 21:53:17.998  INFO 18312 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-20 21:53:18.000  INFO 18312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-20 21:53:18.002  INFO 18312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-20 21:53:18.012  INFO 18312 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2024-08-20 21:53:18.041 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:53:18.042 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:53:18.046 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:53:18.046 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 21:53:18.047 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 21:53:18.049 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:53:41.451 DEBUG 18312 --- [http-nio-8080-exec-2] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user WHERE 'name' LIKE concat('%', ?, '%')
+2024-08-20 21:53:41.452 DEBUG 18312 --- [http-nio-8080-exec-2] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 曾煜(String)
+2024-08-20 21:53:41.456 DEBUG 18312 --- [http-nio-8080-exec-2] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:53:41.470 DEBUG 18312 --- [http-nio-8080-exec-2] com.example.test.dao.UserDao.addUser     : ==>  Preparing: insert into test.user(name, pwd) values (?,?)
+2024-08-20 21:53:41.470 DEBUG 18312 --- [http-nio-8080-exec-2] com.example.test.dao.UserDao.addUser     : ==> Parameters: 曾煜(String), 445645(String)
+2024-08-20 21:53:41.476 DEBUG 18312 --- [http-nio-8080-exec-2] com.example.test.dao.UserDao.addUser     : <==    Updates: 1
+2024-08-20 21:53:41.503 DEBUG 18312 --- [http-nio-8080-exec-3] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:53:41.503 DEBUG 18312 --- [http-nio-8080-exec-3] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:53:41.506 DEBUG 18312 --- [http-nio-8080-exec-3] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:53:41.507 DEBUG 18312 --- [http-nio-8080-exec-3] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 21:53:41.508 DEBUG 18312 --- [http-nio-8080-exec-3] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 21:53:41.510 DEBUG 18312 --- [http-nio-8080-exec-3] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:53:44.444 DEBUG 18312 --- [http-nio-8080-exec-6] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:53:44.444 DEBUG 18312 --- [http-nio-8080-exec-6] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:53:44.446 DEBUG 18312 --- [http-nio-8080-exec-6] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:53:44.446 DEBUG 18312 --- [http-nio-8080-exec-6] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?, ?
+2024-08-20 21:53:44.447 DEBUG 18312 --- [http-nio-8080-exec-6] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Long), 3(Integer)
+2024-08-20 21:53:44.449 DEBUG 18312 --- [http-nio-8080-exec-6] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:54:42.187 DEBUG 18312 --- [http-nio-8080-exec-8] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user WHERE 'name' LIKE concat('%', ?, '%')
+2024-08-20 21:54:42.188 DEBUG 18312 --- [http-nio-8080-exec-8] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 王子维(String)
+2024-08-20 21:54:42.189 DEBUG 18312 --- [http-nio-8080-exec-8] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:54:42.190 DEBUG 18312 --- [http-nio-8080-exec-8] com.example.test.dao.UserDao.updateUser  : ==>  Preparing: update test.user set name = ?,pwd = ? where id = ?
+2024-08-20 21:54:42.190 DEBUG 18312 --- [http-nio-8080-exec-8] com.example.test.dao.UserDao.updateUser  : ==> Parameters: 王子维(String), 223432(String), 7(Integer)
+2024-08-20 21:54:42.192 DEBUG 18312 --- [http-nio-8080-exec-8] com.example.test.dao.UserDao.updateUser  : <==    Updates: 0
+2024-08-20 21:54:42.199 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:54:42.200 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:54:42.202 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:54:42.202 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 21:54:42.203 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 21:54:42.204 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:54:43.285 DEBUG 18312 --- [http-nio-8080-exec-10] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:54:43.286 DEBUG 18312 --- [http-nio-8080-exec-10] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:54:43.288 DEBUG 18312 --- [http-nio-8080-exec-10] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:54:43.289 DEBUG 18312 --- [http-nio-8080-exec-10] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?, ?
+2024-08-20 21:54:43.289 DEBUG 18312 --- [http-nio-8080-exec-10] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Long), 3(Integer)
+2024-08-20 21:54:43.291 DEBUG 18312 --- [http-nio-8080-exec-10] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:54:45.564 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:54:45.565 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:54:45.568 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:54:45.568 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 21:54:45.569 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 21:54:45.574 DEBUG 18312 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:54:47.413 DEBUG 18312 --- [http-nio-8080-exec-4] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:54:47.413 DEBUG 18312 --- [http-nio-8080-exec-4] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:54:47.418 DEBUG 18312 --- [http-nio-8080-exec-4] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:54:47.419 DEBUG 18312 --- [http-nio-8080-exec-4] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?, ?
+2024-08-20 21:54:47.420 DEBUG 18312 --- [http-nio-8080-exec-4] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Long), 3(Integer)
+2024-08-20 21:54:47.422 DEBUG 18312 --- [http-nio-8080-exec-4] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:57:13.213  WARN 18312 --- [http-nio-8080-exec-7] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT, version : 1.2.4, lastPacketReceivedIdleMillis : 145781
+2024-08-20 21:57:13.235 DEBUG 18312 --- [http-nio-8080-exec-7] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:57:13.235 DEBUG 18312 --- [http-nio-8080-exec-7] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:57:13.239 DEBUG 18312 --- [http-nio-8080-exec-7] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:57:13.240 DEBUG 18312 --- [http-nio-8080-exec-7] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 21:57:13.240 DEBUG 18312 --- [http-nio-8080-exec-7] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 21:57:13.241 DEBUG 18312 --- [http-nio-8080-exec-7] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:57:14.656 DEBUG 18312 --- [http-nio-8080-exec-5] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:57:14.657 DEBUG 18312 --- [http-nio-8080-exec-5] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:57:14.663 DEBUG 18312 --- [http-nio-8080-exec-5] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:57:14.665 DEBUG 18312 --- [http-nio-8080-exec-5] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?, ?
+2024-08-20 21:57:14.666 DEBUG 18312 --- [http-nio-8080-exec-5] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Long), 3(Integer)
+2024-08-20 21:57:14.671 DEBUG 18312 --- [http-nio-8080-exec-5] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:57:17.505 DEBUG 18312 --- [http-nio-8080-exec-8] c.e.test.dao.UserDao.deleteUserById      : ==>  Preparing: delete from test.user where id=?
+2024-08-20 21:57:17.506 DEBUG 18312 --- [http-nio-8080-exec-8] c.e.test.dao.UserDao.deleteUserById      : ==> Parameters: 6(Integer)
+2024-08-20 21:57:17.515 DEBUG 18312 --- [http-nio-8080-exec-8] c.e.test.dao.UserDao.deleteUserById      : <==    Updates: 1
+2024-08-20 21:57:17.529 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:57:17.530 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:57:17.534 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:57:17.535 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 21:57:17.536 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 21:57:17.540 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:57:19.722 DEBUG 18312 --- [http-nio-8080-exec-10] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:57:19.722 DEBUG 18312 --- [http-nio-8080-exec-10] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:57:19.725 DEBUG 18312 --- [http-nio-8080-exec-10] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:57:19.725 DEBUG 18312 --- [http-nio-8080-exec-10] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?, ?
+2024-08-20 21:57:19.726 DEBUG 18312 --- [http-nio-8080-exec-10] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Long), 3(Integer)
+2024-08-20 21:57:19.727 DEBUG 18312 --- [http-nio-8080-exec-10] c.e.test.dao.UserDao.listUserByName      : <==      Total: 2
+2024-08-20 21:57:33.915 DEBUG 18312 --- [http-nio-8080-exec-4] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user WHERE 'name' LIKE concat('%', ?, '%')
+2024-08-20 21:57:33.916 DEBUG 18312 --- [http-nio-8080-exec-4] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 成诺鑫(String)
+2024-08-20 21:57:33.919 DEBUG 18312 --- [http-nio-8080-exec-4] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:57:33.920 DEBUG 18312 --- [http-nio-8080-exec-4] com.example.test.dao.UserDao.addUser     : ==>  Preparing: insert into test.user(name, pwd) values (?,?)
+2024-08-20 21:57:33.921 DEBUG 18312 --- [http-nio-8080-exec-4] com.example.test.dao.UserDao.addUser     : ==> Parameters: 成诺鑫(String), 2234222(String)
+2024-08-20 21:57:33.928 DEBUG 18312 --- [http-nio-8080-exec-4] com.example.test.dao.UserDao.addUser     : <==    Updates: 1
+2024-08-20 21:57:33.934 DEBUG 18312 --- [http-nio-8080-exec-2] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:57:33.934 DEBUG 18312 --- [http-nio-8080-exec-2] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:57:33.936 DEBUG 18312 --- [http-nio-8080-exec-2] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:57:33.938 DEBUG 18312 --- [http-nio-8080-exec-2] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 21:57:33.938 DEBUG 18312 --- [http-nio-8080-exec-2] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 21:57:33.940 DEBUG 18312 --- [http-nio-8080-exec-2] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:57:35.215 DEBUG 18312 --- [http-nio-8080-exec-3] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:57:35.216 DEBUG 18312 --- [http-nio-8080-exec-3] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:57:35.218 DEBUG 18312 --- [http-nio-8080-exec-3] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:57:35.219 DEBUG 18312 --- [http-nio-8080-exec-3] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?, ?
+2024-08-20 21:57:35.220 DEBUG 18312 --- [http-nio-8080-exec-3] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Long), 3(Integer)
+2024-08-20 21:57:35.221 DEBUG 18312 --- [http-nio-8080-exec-3] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:57:39.482 DEBUG 18312 --- [http-nio-8080-exec-6] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:57:39.483 DEBUG 18312 --- [http-nio-8080-exec-6] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:57:39.488 DEBUG 18312 --- [http-nio-8080-exec-6] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:57:39.489 DEBUG 18312 --- [http-nio-8080-exec-6] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 21:57:39.489 DEBUG 18312 --- [http-nio-8080-exec-6] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 21:57:39.492 DEBUG 18312 --- [http-nio-8080-exec-6] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:58:09.425 DEBUG 18312 --- [http-nio-8080-exec-5] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:58:09.427 DEBUG 18312 --- [http-nio-8080-exec-5] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:58:09.433 DEBUG 18312 --- [http-nio-8080-exec-5] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:58:09.434 DEBUG 18312 --- [http-nio-8080-exec-5] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 21:58:09.436 DEBUG 18312 --- [http-nio-8080-exec-5] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 21:58:09.440 DEBUG 18312 --- [http-nio-8080-exec-5] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:58:11.035 DEBUG 18312 --- [http-nio-8080-exec-8] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:58:11.037 DEBUG 18312 --- [http-nio-8080-exec-8] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:58:11.043 DEBUG 18312 --- [http-nio-8080-exec-8] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:58:11.045 DEBUG 18312 --- [http-nio-8080-exec-8] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?, ?
+2024-08-20 21:58:11.046 DEBUG 18312 --- [http-nio-8080-exec-8] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Long), 3(Integer)
+2024-08-20 21:58:11.049 DEBUG 18312 --- [http-nio-8080-exec-8] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:58:13.348 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 21:58:13.349 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 21:58:13.354 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:58:13.354 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 21:58:13.356 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 21:58:13.359 DEBUG 18312 --- [http-nio-8080-exec-9] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 21:58:19.051 DEBUG 18312 --- [http-nio-8080-exec-10] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user WHERE 'name' LIKE concat('%', ?, '%')
+2024-08-20 21:58:19.053 DEBUG 18312 --- [http-nio-8080-exec-10] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 成(String)
+2024-08-20 21:58:19.056 DEBUG 18312 --- [http-nio-8080-exec-10] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 21:59:39.808  INFO 1900 --- [restartedMain] com.example.test.TestApplication         : Starting TestApplication using Java 1.8.0_151 on LAPTOP-JNEFC1UN with PID 1900 (C:\backend_test1\target\classes started by 李嘉琛 in C:\backend_test1)
+2024-08-20 21:59:39.810 DEBUG 1900 --- [restartedMain] com.example.test.TestApplication         : Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-08-20 21:59:39.810  INFO 1900 --- [restartedMain] com.example.test.TestApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-20 21:59:39.847  INFO 1900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-20 21:59:39.847  INFO 1900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-20 21:59:40.834  INFO 1900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-20 21:59:40.835  INFO 1900 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-08-20 21:59:40.835  INFO 1900 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2024-08-20 21:59:40.835  INFO 1900 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-08-20 21:59:40.836  INFO 1900 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-20 21:59:40.839  INFO 1900 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2024-08-20 21:59:40.846  INFO 1900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-20 21:59:40.846  INFO 1900 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-20 21:59:40.969  INFO 1900 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-20 21:59:40.969  INFO 1900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1121 ms
+2024-08-20 21:59:42.645  INFO 1900 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-08-20 21:59:42.827  INFO 1900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-20 21:59:42.862  INFO 1900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-20 21:59:42.872  INFO 1900 --- [restartedMain] com.example.test.TestApplication         : Started TestApplication in 3.452 seconds (JVM running for 5.123)
+2024-08-20 22:12:41.359  INFO 1900 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-20 22:12:41.360  INFO 1900 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-20 22:12:41.362  INFO 1900 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-20 22:12:41.532  INFO 1900 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-08-20 22:12:42.671 DEBUG 1900 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 22:12:42.695 DEBUG 1900 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 22:12:42.721 DEBUG 1900 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 22:12:42.725 DEBUG 1900 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 22:12:42.726 DEBUG 1900 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 22:12:42.731 DEBUG 1900 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 22:13:56.162  WARN 1900 --- [http-nio-8080-exec-10] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT, version : 1.2.4, lastPacketReceivedIdleMillis : 73423
+2024-08-20 22:13:56.194 DEBUG 1900 --- [http-nio-8080-exec-10] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user WHERE 'name' LIKE concat('%', ?, '%')
+2024-08-20 22:13:56.195 DEBUG 1900 --- [http-nio-8080-exec-10] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 李(String)
+2024-08-20 22:13:56.200 DEBUG 1900 --- [http-nio-8080-exec-10] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 22:14:04.182 DEBUG 1900 --- [http-nio-8080-exec-4] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user WHERE 'name' LIKE concat('%', ?, '%')
+2024-08-20 22:14:04.184 DEBUG 1900 --- [http-nio-8080-exec-4] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 1(String)
+2024-08-20 22:14:04.189 DEBUG 1900 --- [http-nio-8080-exec-4] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 22:14:05.469 DEBUG 1900 --- [http-nio-8080-exec-6] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 22:14:05.469 DEBUG 1900 --- [http-nio-8080-exec-6] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 22:14:05.472 DEBUG 1900 --- [http-nio-8080-exec-6] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 22:14:05.472 DEBUG 1900 --- [http-nio-8080-exec-6] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 22:14:05.474 DEBUG 1900 --- [http-nio-8080-exec-6] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 22:14:05.476 DEBUG 1900 --- [http-nio-8080-exec-6] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 22:14:13.049 DEBUG 1900 --- [http-nio-8080-exec-8] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user WHERE 'name' LIKE concat('%', ?, '%')
+2024-08-20 22:14:13.050 DEBUG 1900 --- [http-nio-8080-exec-8] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 1(String)
+2024-08-20 22:14:13.053 DEBUG 1900 --- [http-nio-8080-exec-8] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 22:14:21.450 DEBUG 1900 --- [http-nio-8080-exec-3] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 22:14:21.451 DEBUG 1900 --- [http-nio-8080-exec-3] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 22:14:21.453 DEBUG 1900 --- [http-nio-8080-exec-3] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 22:14:21.456 DEBUG 1900 --- [http-nio-8080-exec-3] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 22:14:21.456 DEBUG 1900 --- [http-nio-8080-exec-3] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 22:14:21.457 DEBUG 1900 --- [http-nio-8080-exec-3] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 22:14:25.504 DEBUG 1900 --- [http-nio-8080-exec-9] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user WHERE 'name' LIKE concat('%', ?, '%')
+2024-08-20 22:14:25.506 DEBUG 1900 --- [http-nio-8080-exec-9] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 1(String)
+2024-08-20 22:14:25.508 DEBUG 1900 --- [http-nio-8080-exec-9] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 22:17:57.079  INFO 12056 --- [restartedMain] com.example.test.TestApplication         : Starting TestApplication using Java 1.8.0_151 on LAPTOP-JNEFC1UN with PID 12056 (C:\backend_test1\target\classes started by 李嘉琛 in C:\backend_test1)
+2024-08-20 22:17:57.081 DEBUG 12056 --- [restartedMain] com.example.test.TestApplication         : Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-08-20 22:17:57.082  INFO 12056 --- [restartedMain] com.example.test.TestApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-20 22:17:57.125  INFO 12056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-20 22:17:57.125  INFO 12056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-20 22:17:58.203  INFO 12056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-20 22:17:58.203  INFO 12056 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-08-20 22:17:58.203  INFO 12056 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2024-08-20 22:17:58.204  INFO 12056 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-08-20 22:17:58.204  INFO 12056 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-08-20 22:17:58.207  INFO 12056 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2024-08-20 22:17:58.216  INFO 12056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-20 22:17:58.216  INFO 12056 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-20 22:17:58.336  INFO 12056 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-20 22:17:58.336  INFO 12056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1210 ms
+2024-08-20 22:18:00.346  INFO 12056 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-08-20 22:18:00.561  INFO 12056 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-20 22:18:00.604  INFO 12056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-20 22:18:00.618  INFO 12056 --- [restartedMain] com.example.test.TestApplication         : Started TestApplication in 3.958 seconds (JVM running for 5.799)
+2024-08-20 22:18:14.155  INFO 12056 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-20 22:18:14.156  INFO 12056 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-20 22:18:14.157  INFO 12056 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-20 22:18:14.306  INFO 12056 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-08-20 22:18:15.463 DEBUG 12056 --- [http-nio-8080-exec-2] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user WHERE name LIKE concat('%', ?, '%')
+2024-08-20 22:18:15.487 DEBUG 12056 --- [http-nio-8080-exec-2] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 1(String)
+2024-08-20 22:18:15.506 DEBUG 12056 --- [http-nio-8080-exec-2] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 22:18:30.969 DEBUG 12056 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user WHERE name LIKE concat('%', ?, '%')
+2024-08-20 22:18:30.970 DEBUG 12056 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 李(String)
+2024-08-20 22:18:30.973 DEBUG 12056 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 22:18:30.976 DEBUG 12056 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user WHERE name like concat('%',?,'%') LIMIT ?
+2024-08-20 22:18:30.977 DEBUG 12056 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 李(String), 3(Integer)
+2024-08-20 22:18:30.982 DEBUG 12056 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : <==      Total: 1
+2024-08-20 22:18:33.399 DEBUG 12056 --- [http-nio-8080-exec-3] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 22:18:33.400 DEBUG 12056 --- [http-nio-8080-exec-3] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 22:18:33.402 DEBUG 12056 --- [http-nio-8080-exec-3] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 22:18:33.402 DEBUG 12056 --- [http-nio-8080-exec-3] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 22:18:33.404 DEBUG 12056 --- [http-nio-8080-exec-3] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 22:18:33.405 DEBUG 12056 --- [http-nio-8080-exec-3] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 22:18:37.503 DEBUG 12056 --- [http-nio-8080-exec-4] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user WHERE name LIKE concat('%', ?, '%')
+2024-08-20 22:18:37.504 DEBUG 12056 --- [http-nio-8080-exec-4] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 鉴(String)
+2024-08-20 22:18:37.507 DEBUG 12056 --- [http-nio-8080-exec-4] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 22:18:37.509 DEBUG 12056 --- [http-nio-8080-exec-4] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user WHERE name like concat('%',?,'%') LIMIT ?
+2024-08-20 22:18:37.509 DEBUG 12056 --- [http-nio-8080-exec-4] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 鉴(String), 3(Integer)
+2024-08-20 22:18:37.514 DEBUG 12056 --- [http-nio-8080-exec-4] c.e.test.dao.UserDao.listUserByName      : <==      Total: 1
+2024-08-20 22:18:44.313 DEBUG 12056 --- [http-nio-8080-exec-5] c.e.test.dao.UserDao.queryUserById       : ==>  Preparing: select * from test.user where id=?
+2024-08-20 22:18:44.315 DEBUG 12056 --- [http-nio-8080-exec-5] c.e.test.dao.UserDao.queryUserById       : ==> Parameters: 2(Integer)
+2024-08-20 22:18:44.318 DEBUG 12056 --- [http-nio-8080-exec-5] c.e.test.dao.UserDao.queryUserById       : <==      Total: 1
+2024-08-20 22:18:48.451 DEBUG 12056 --- [http-nio-8080-exec-6] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user WHERE name LIKE concat('%', ?, '%')
+2024-08-20 22:18:48.452 DEBUG 12056 --- [http-nio-8080-exec-6] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 李嘉琛(String)
+2024-08-20 22:18:48.454 DEBUG 12056 --- [http-nio-8080-exec-6] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 22:18:48.454 DEBUG 12056 --- [http-nio-8080-exec-6] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user WHERE name like concat('%',?,'%') LIMIT ?
+2024-08-20 22:18:48.455 DEBUG 12056 --- [http-nio-8080-exec-6] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 李嘉琛(String), 3(Integer)
+2024-08-20 22:18:48.456 DEBUG 12056 --- [http-nio-8080-exec-6] c.e.test.dao.UserDao.listUserByName      : <==      Total: 1
+2024-08-20 22:18:48.484 DEBUG 12056 --- [http-nio-8080-exec-7] c.e.test.dao.UserDao.queryUserById       : ==>  Preparing: select * from test.user where id=?
+2024-08-20 22:18:48.485 DEBUG 12056 --- [http-nio-8080-exec-7] c.e.test.dao.UserDao.queryUserById       : ==> Parameters: 2(Integer)
+2024-08-20 22:18:48.487 DEBUG 12056 --- [http-nio-8080-exec-7] c.e.test.dao.UserDao.queryUserById       : <==      Total: 1
+2024-08-20 22:19:00.221 DEBUG 12056 --- [http-nio-8080-exec-8] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user WHERE name LIKE concat('%', ?, '%')
+2024-08-20 22:19:00.223 DEBUG 12056 --- [http-nio-8080-exec-8] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 张鉴(String)
+2024-08-20 22:19:00.225 DEBUG 12056 --- [http-nio-8080-exec-8] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 22:19:00.225 DEBUG 12056 --- [http-nio-8080-exec-8] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user WHERE name like concat('%',?,'%') LIMIT ?
+2024-08-20 22:19:00.226 DEBUG 12056 --- [http-nio-8080-exec-8] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 张鉴(String), 3(Integer)
+2024-08-20 22:19:00.227 DEBUG 12056 --- [http-nio-8080-exec-8] c.e.test.dao.UserDao.listUserByName      : <==      Total: 1
+2024-08-20 22:19:00.235 DEBUG 12056 --- [http-nio-8080-exec-9] c.e.test.dao.UserDao.queryUserById       : ==>  Preparing: select * from test.user where id=?
+2024-08-20 22:19:00.235 DEBUG 12056 --- [http-nio-8080-exec-9] c.e.test.dao.UserDao.queryUserById       : ==> Parameters: 2(Integer)
+2024-08-20 22:19:00.237 DEBUG 12056 --- [http-nio-8080-exec-9] c.e.test.dao.UserDao.queryUserById       : <==      Total: 1
+2024-08-20 22:22:52.716  WARN 12056 --- [http-nio-8080-exec-1] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT, version : 1.2.4, lastPacketReceivedIdleMillis : 232470
+2024-08-20 22:22:52.736 DEBUG 12056 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 22:22:52.736 DEBUG 12056 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 22:22:52.739 DEBUG 12056 --- [http-nio-8080-exec-1] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 22:22:52.741 DEBUG 12056 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 22:22:52.741 DEBUG 12056 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 22:22:52.744 DEBUG 12056 --- [http-nio-8080-exec-1] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 22:22:54.293 DEBUG 12056 --- [http-nio-8080-exec-3] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 22:22:54.294 DEBUG 12056 --- [http-nio-8080-exec-3] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 22:22:54.297 DEBUG 12056 --- [http-nio-8080-exec-3] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 22:22:54.297 DEBUG 12056 --- [http-nio-8080-exec-3] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?, ?
+2024-08-20 22:22:54.298 DEBUG 12056 --- [http-nio-8080-exec-3] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Long), 3(Integer)
+2024-08-20 22:22:54.301 DEBUG 12056 --- [http-nio-8080-exec-3] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
+2024-08-20 22:22:56.060 DEBUG 12056 --- [http-nio-8080-exec-4] c.e.t.dao.UserDao.listUserByName_COUNT   : ==>  Preparing: SELECT count(0) FROM test.user
+2024-08-20 22:22:56.061 DEBUG 12056 --- [http-nio-8080-exec-4] c.e.t.dao.UserDao.listUserByName_COUNT   : ==> Parameters: 
+2024-08-20 22:22:56.064 DEBUG 12056 --- [http-nio-8080-exec-4] c.e.t.dao.UserDao.listUserByName_COUNT   : <==      Total: 1
+2024-08-20 22:22:56.064 DEBUG 12056 --- [http-nio-8080-exec-4] c.e.test.dao.UserDao.listUserByName      : ==>  Preparing: select * from test.user LIMIT ?
+2024-08-20 22:22:56.065 DEBUG 12056 --- [http-nio-8080-exec-4] c.e.test.dao.UserDao.listUserByName      : ==> Parameters: 3(Integer)
+2024-08-20 22:22:56.066 DEBUG 12056 --- [http-nio-8080-exec-4] c.e.test.dao.UserDao.listUserByName      : <==      Total: 3
